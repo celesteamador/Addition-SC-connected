@@ -1,5 +1,6 @@
 # Addition Smart Contract Connected
 Two smart contracts interacting with an addition and a result function.
+Video: https://youtu.be/G-LY46g9Wyo
 
 ## Addition and Result Contracts
 
