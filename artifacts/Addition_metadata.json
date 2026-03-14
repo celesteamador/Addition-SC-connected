@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "result_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2_",
+						"type": "uint256"
+					}
+				],
+				"name": "addition",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Addition.sol": "Addition"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Addition.sol": {
+			"keccak256": "0x77498ef8f628b45b960612a4a9fbb9b36953cd95107312edb6470973118918ad",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://7d8853b5766609f7a5fc2d580800afa3d68bc7878ac923f74bcce5aa030fd5e6",
+				"dweb:/ipfs/QmU7mWWnuFcpYVBW2uimyKMh16xHXBMoDVHfPUdyztSCyg"
+			]
+		},
+		"interfaces/IResult.sol": {
+			"keccak256": "0x5ce81c295fe231b836d74bb2042f68042b5c1bd6a4992712c4142b219dfd0eb0",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://dab6c0ad195bf2d0c5aa2e2a78f2edb273e8233dd46f3b7696021dbfa84a1f80",
+				"dweb:/ipfs/QmNtVFjCdafGc26CnJyPvP5axBSNwVZAM8HB487ir9unq4"
+			]
+		}
+	},
+	"version": 1
+}
